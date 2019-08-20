@@ -6,8 +6,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.didala.jiang</groupId>
     <artifactId>didala-spring-framework</artifactId>
-    <packaging>war</packaging>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>service-order</module>
+    </modules>
     <name>A custom project using myfaces</name>
 
     <build>
